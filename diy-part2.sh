@@ -12,4 +12,4 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.168.1/g' package/base-files/files/bin/config_generate
-set system.@system[-1].hostname='iKuai'
+sed -i 's/OpenWrt/iKuai/g' package/base-files/files/bin/config_generate
