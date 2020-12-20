@@ -15,7 +15,7 @@
 
 # Add a feed source
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-sed -i '$a src-git chengood5000 https://github.com/chengood5000/passwall652' feeds.conf.default
+# sed -i '$a src-git chengood5000 https://github.com/chengood5000/passwall652' feeds.conf.default
 sed -i '$a src-git lienol1 https://github.com/esirplayground/luci-app-poweroff' feeds.conf.default
 sed -i '$a src-git lienol2 https://github.com/sirpdboy/luci-app-autopoweroff' feeds.conf.default
 sed -i '$a src-git lienol3 https://github.com/jerrykuku/luci-theme-argon' feeds.conf.default
